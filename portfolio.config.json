@@ -1,86 +1,164 @@
 {
   "meta": {
-    "siteTitle": "Título da página",
-    "siteDescription": "Seu cargo / Título",
-    "ogImage": "https://placehold.co/1200x630.png",
-    "favicon": "https://github.com/openportfolios.png",
+    "siteTitle": "Matheus Audibert",
+    "siteDescription": "My personal portfolio website.",
+    "ogImage": "https://i.postimg.cc/TPD3mf8n/banner.png",
+    "favicon": "https://github.com/matheusaudibert.png",
     "defaultTheme": "dark",
     "scale": "small",
-    "language": "pt",
+    "language": "en",
     "animations": true,
     "credits": true
   },
   "person": {
-    "name": "Seu nome",
-    "title": "Seu cargo / Título",
-    "email": "seu@email.com",
-    "location": "Sua cidade, Seu país",
-    "avatar": "https://github.com/openportfolios.png",
+    "name": "Matheus Audibert",
+    "title": "Software Engineer",
+    "email": "hi@audibert.dev",
+    "location": "São Paulo, Brazil",
+    "avatar": "https://github.com/matheusaudibert.png",
     "social": [
       {
+        "label": "Resume",
+        "href": "https://github.com/matheusaudibert/resume/blob/main/resume_en.pdf",
+        "icon": "resume"
+      },
+      {
         "label": "GitHub",
-        "href": "https://github.com/openportfolios",
+        "href": "https://github.com/matheusaudibert",
         "icon": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/matheusaudibert",
+        "icon": "linkedin"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@audibert",
+        "icon": "youtube"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.com/users/161092845040566272",
+        "icon": "discord"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/audibert.dev",
+        "icon": "instagram"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/audibertdev",
+        "icon": "x"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/playlist/1LQgN1PYnEGWOc4AXjPk5Y?si=5059dc358e224510",
+        "icon": "spotify"
       }
     ]
   },
-  "about": {
-    "text": [
-      "Uma breve biografia descrevendo quem você é, o que você faz e o que te motiva profissionalmente. Esta é a sua chance de falar sobre sua trajetória, paixões e foco atual.",
-      "Você também pode usar [texto colorido]{#8D62DD} e [links](https://github.com/openportfolios/yuri){#0EA5E9} na sua biografia."
-    ]
-  },
+  "about": null,
   "workExperience": [
     {
-      "company": "Nome da Empresa",
-      "companyUrl": "https://www.company.com",
-      "companyImage": "https://placehold.co/1366x768",
-      "companyDescription": "Uma breve descrição da empresa, o que ela faz e sua missão.",
-      "role": "Cargo",
-      "period": "Mês Ano - Presente",
+      "company": "Itaú Unibanco",
+      "companyUrl": "https://www.itau.com.br",
+      "companyImage": "https://pentagram-production.imgix.net/1534bf41-430a-4799-af2b-32d0db753369/5_BuildingSignage_16x9.jpg?auto=compress%2Cformat&crop=entropy&fit=crop&fm=jpg&h=470&q=80&rect=124%2C0%2C2243%2C1402&w=900&s=37a53c99cd766581f506b7e904af4eb0",
+      "companyDescription": "Latin America's largest bank and a global financial institution",
+      "role": "Software Engineer Intern",
+      "period": "Sep 2025 - Present",
       "tags": [
-        "Remoto",
-        "Habilidade 1",
-        "Habilidade 2"
+        "Hybrid",
+        "Python",
+        "MySQL",
+        "AWS"
       ],
       "bullets": [
-        "Pelo que você era responsável neste emprego.",
-        "Projeto ou sistema específico que você construiu ou para o qual contribuiu.",
-        "Impacto que você teve, como melhorar o desempenho, economizar tempo ou resolver um problema.",
-        "Qualquer outra informação que você ache relevante para mostrar suas habilidades e experiência."
+        "Built an end-to-end headcount governance platform covering 1,500+ employees across all departments of a bank division, where managers review and justify every hire, transfer and exit against approved headcount limits.",
+        "Owned the full AWS architecture, implementing 10 Lambda functions with ECS, IAM, Athena, S3 and RDS, behind a Python/Streamlit frontend handling sensitive HR data",
+        "Implemented unit and integration test suites and a formal change-control process, keeping the platform stable across continuous releases over an 8-month build.",
+        "Partnered with the product owner in recurring refinement sessions, translating business pain points from directorate managers into a prioritized technical backlog."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Nome da Universidade",
-      "degree": "Nome do Curso",
-      "period": "Mês Ano - Presente"
+      "institution": "FIAP",
+      "degree": "Software Engineering",
+      "period": "Aug 2025 - Jun 2028"
     }
   ],
   "projects": [
     {
-      "title": "Nome do projeto",
-      "description": "O que é o projeto e o que ele faz.",
+      "title": "OpenPortfolios",
+      "description": "Portfoloios for devs, easy.",
       "tags": [
-        "Tecnologia 1",
-        "Tecnologia 2"
+        "TypeScript",
+        "Next.js",
+        "React"
       ],
       "href": "https://github.com/openportfolios/yuri"
+    },
+    {
+      "title": "The Git Calendar",
+      "description": "Show your GitHub contributions on your mobile screen.",
+      "tags": [
+        "Python",
+        "GitHub",
+        "React"
+      ],
+      "href": "https://github.com/matheusaudibert/thegitcalendar"
+    },
+    {
+      "title": "Grux",
+      "description": "An API and WebSocket service for Discord profile data.",
+      "tags": [
+        "JavaScript",
+        "Express",
+        "Discord"
+      ],
+      "href": "https://github.com/matheusaudibert/grux"
+    },
+    {
+      "title": "Aprova Project",
+      "description": "A web plataform to help students to get approved in their courses.",
+      "tags": [
+        "Python",
+        "Streamlit",
+        "Gemini"
+      ],
+      "href": "https://github.com/matheusaudibert/projeto-aprova"
     }
   ],
   "skills": [
-    "Habilidade 1",
-    "Habilidade 2",
-    "Habilidade 3"
+    "Python",
+    "FastAPI",
+    "TypeScript",
+    "JavaScript",
+    "C++",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Discord.js",
+    "Express",
+    "MySQL",
+    "MongoDB",
+    "AWS",
+    "Docker",
+    "Terraform",
+    "Datadog",
+    "Git",
+    "GitHub",
+    "Claude Code"
   ],
   "certifications": [
     {
-      "title": "Nome da Certificação",
-      "issuer": "Nome da Instituição",
-      "certificationImage": "https://placehold.co/600x600",
-      "date": "Mês Ano",
-      "href": "https://github.com/openportfolios/yuri"
+      "title": "CS50: Introduction to Computer Science",
+      "issuer": "Harvard University",
+      "certificationImage": "https://upload.wikimedia.org/wikipedia/commons/2/25/Harvard_University_shield.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original",
+      "date": "Aug 2023",
+      "href": "https://drive.google.com/file/d/1OJLB0Wn3Y45n8M8Yb1mbqPoAIHcGwYOX/view"
     }
   ],
   "blog": {
@@ -88,6 +166,6 @@
   },
   "discordActivity": {
     "enabled": true,
-    "userId": "Seu ID de usuário do Discord"
+    "userId": "161092845040566272"
   }
 }
