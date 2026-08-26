@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "Matheus Audibert",
-    "siteDescription": "My personal portfolio website.",
+    "siteDescription": "My personal portfolio website",
     "ogImage": "https://i.postimg.cc/TPD3mf8n/banner.png",
     "favicon": "https://github.com/matheusaudibert.png",
     "defaultTheme": "dark",
@@ -15,7 +15,7 @@
     "title": "Software Engineer",
     "email": "hi@audibert.dev",
     "location": "São Paulo, Brazil",
-    "avatar": "https://github.com/matheusaudibert.png",
+    "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQEyDzX_FT8fqA/profile-displayphoto-scale_400_400/B4DZlS5DJQJEAg-/0/1758032312085?e=1788998400&v=beta&t=e2SfwBCB-4fZ20a32G2SofKtYB4FEsPNp1SJ7PnzoUo",
     "social": [
       {
         "label": "Resume",
@@ -59,7 +59,11 @@
       }
     ]
   },
-  "about": null,
+  "about": {
+    "text": [
+      "Hello, I'm Audibert, a software engineer with experience in web development, cloud computing, and software architecture. I've a discord community with 23k+ members ([@servidordosprogramadores](https://discord.gg/programador){#5865F2}) and a YouTube channel ([@audibert](https://www.youtube.com/@audibert){#FF0033}) where I share funny tech content."
+    ]
+  },
   "workExperience": [
     {
       "company": "Itaú Unibanco",
