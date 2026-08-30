@@ -96,7 +96,7 @@
   "projects": [
     {
       "title": "OpenPortfolios",
-      "description": "Portfoloios for devs, easy.",
+      "description": "Portfolios for devs, easy.",
       "tags": [
         "TypeScript",
         "Next.js",
